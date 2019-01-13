@@ -42,9 +42,9 @@ class Product {
 
     if(strtolower($title) == "all") {
       if(strtolower($available) == 'true') {
-        $sql = "SELECT `title`, `price`, `inventory_count` FROM `products`";
-      } else if (strtolower($available) == 'false') {
         $sql = "SELECT `title`, `price`, `inventory_count` FROM `products` WHERE inventory_count > 0";
+      } else if (strtolower($available) == 'false') {
+        $sql = "SELECT `title`, `price`, `inventory_count` FROM `products`";
       } else {
         echo "<h1> 400 Bad Request </h1>";
         echo "<h3> Incorrect instock format </h3>";
