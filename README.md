@@ -2,6 +2,14 @@
 # cart-api - Shopify
 cart-api is a sample online marketplace api created for Shopify by Jehan Wadia.
 
+Sample Data Stored In Database:
+|title| price | inventory_count |
+|--|--|--|
+| Shirt | 14.99 | 10 |
+| Pant | 19.99 | 1 |
+| Shoes| 99.99 | 0 |
+| Watch| 279.99 | 5 |
+
 ## Contents
 
  - [User API](https://github.com/jwadia/cart-api/blob/master/README.md#user-api)

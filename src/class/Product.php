@@ -11,7 +11,7 @@ class Product {
     $con = $database->connect();
 
     $title = $con->escape_string($title);
-    $sql = "SELECT `title`, `price`, `inventory_count` FROM `products` WHERE title = '$title'";
+    $sql = "SELECT `title`, `price`, `inventory_count` FROM `products` WHERE title = '$title' AND inventory_count > 0";
 
     $result = $con->query($sql);
     if($result->num_rows > 0) {
