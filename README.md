@@ -1,11 +1,19 @@
+
 # cart-api - Shopify
 cart-api is a sample online marketplace api created for Shopify by Jehan Wadia.
 
 ## Contents
 
- - User API
- - Product API
- - Cart API
+ - [User API](https://github.com/jwadia/cart-api/blob/master/README.md#user-api)
+	 - [Create API Key](https://github.com/jwadia/cart-api/blob/master/README.md#create-api-key)
+	 - [Revoke API Key](https://github.com/jwadia/cart-api/blob/master/README.md#revoke-api-key)
+ - [Product API](https://github.com/jwadia/cart-api/blob/master/README.md#product-api)
+	 - [Get Product Info (single product)](https://github.com/jwadia/cart-api/blob/master/README.md#get-product-info-single-product)
+	 - [Get Product Info (all products)](https://github.com/jwadia/cart-api/blob/master/README.md#get-product-info-all-products)
+ - [Cart API](https://github.com/jwadia/cart-api/blob/master/README.md#cart-api)
+	 - [Create Cart](https://github.com/jwadia/cart-api/blob/master/README.md#create-cart)
+	 - [Complete Cart](https://github.com/jwadia/cart-api/blob/master/README.md#complete-cart)
+	 - [Display Cart](https://github.com/jwadia/cart-api/blob/master/README.md#display-cart)
 
 ## User API
 #### Create API Key:
