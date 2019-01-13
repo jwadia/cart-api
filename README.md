@@ -1,6 +1,6 @@
 
 # cart-api - Shopify
-cart-api is a sample online marketplace api created for Shopify by Jehan Wadia.
+cart-api is a sample online marketplace API created for Shopify by Jehan Wadia.
 
 Sample Data Stored In Database:
 
