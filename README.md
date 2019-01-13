@@ -10,9 +10,11 @@ cart-api is a sample online marketplace api created for Shopify by Jehan Wadia.
 ## User API
 #### Create API Key:
 This endpoint is used to generate a unique API key that lets you access the cart API.
+
 | Type| Endpoint |
 |--|--|
 | GET | http://jehanwadia.ca/shopify_api/users/create.php |
+
 This endpoint only takes one argument, the type of the output you with to receive from the API call.
 |Argument| Possible Values |
 |--|--|
